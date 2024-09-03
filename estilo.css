@@ -1,0 +1,155 @@
+html {
+  font-size: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: #0c0c0c;
+}
+
+button {
+  background-color: rgb(116, 116, 116);
+  color: aliceblue;
+  border-radius: 5px;
+  border: 0;
+  padding: 3px 10px 5px 10px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  color: #5c5c5c;
+}
+
+p,
+li,
+legend {
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 650px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  padding: 0 20px 20px 20px;
+}
+
+.top,
+button {
+  font-size: 16px;
+  line-height: 1;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  border-radius: 5px;
+  border: 0;
+}
+
+table {
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+}
+
+td,
+th {
+  padding: 10px 20px 10px 20px;
+}
+
+.center {
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#justificar {
+  text-align: justify;
+}
+
+fieldset {
+  border-radius: 10px;
+
+}
+
+.textoform {
+  padding-left: 20px;
+}
+
+input {
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #0c0c0c;
+
+  padding-right: 10px;
+}
+
+a:hover {
+  color: #0037ff;
+}
+
+.description {
+  color: rgb(124, 124, 124)
+}
+
+.comprar {
+  font-size: 16px;
+  line-height: 1;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  background-color: #0c0c0c;
+}
+
+.comprar:hover {
+  background-color: rgb(12, 175, 0);
+  color: aliceblue;
+  border-radius: 5px;
+  border: 0;
+}
+
+.carrinho {
+  font-size: 12px;
+  line-height: 1;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  color: #5c5c5c;
+  background-color: #ffffff;
+}
+
+.carrinho:hover {
+  color: #0037ff;
+  border-color: #0037ff;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 0;
+}
+
+.preco {
+  color: rgb(7, 106, 0);
+}

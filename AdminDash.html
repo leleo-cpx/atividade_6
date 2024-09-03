@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link href="estilo.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="center">
+        <img src="Imagens/Menus/Logo.svg">
+    </header>
+
+    <div>
+        <h2>Dashboard</h2>
+    </div>
+    <div>
+        <form>
+            <fieldset>
+                <legend align="center">Cadastrar produtos</legend>
+                <div>
+                    <p class="textoform">*Nome do produtos
+                        <input type="text" name="nome_produto" size="50px">
+                    </p>
+                    <p class="textoform">*Categoria
+                        <select name="Categoria">
+                            <option name="Joia">Joias</option>
+                            <option name="Roupa">Roupa</option>
+                            <option name="Eletronico">Eletrônico</option>
+                            <option name="Domestico">Domestico</option>
+                        </select>
+                    </p>
+                    <p class="textoform">*Preço
+                        <input type="number" name="preco_produto" size="15px">
+                    </p>
+
+                    <fieldset>
+                        <p class="textoform">Parcelamento
+                            <input type="radio" name="sim">Sim
+                            <input type="radio" name="sim">Não
+                        </p>
+                        <p class="textoform">Nº máximo de parcelas
+                            <input type="number" name="n_max_parcelas" size="15px">
+                        </p>
+                        <p class="textoform">Desconto á vista
+                            <input type="number" name="descoto_avista">
+                        </p>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend align="center">Local de produção e frete</legend>
+                        <p class="textoform">*Frete grátis
+                            <input type="radio" name="sim">Sim
+                            <input type="radio" name="sim">Não
+                        </p>
+                        <p class="textoform">*Retirada na loja física
+                            <input type="radio" name="sim">Sim
+                            <input type="radio" name="sim">Não
+                        </p>
+                        <p class="textoform">*CEP de origem
+                            <input type="number" name="cep_matriz" size="15px">
+                        </p>
+                        <p class="textoform">*Estoque
+                            <input type="number" name="descoto_avista" value="1">
+                        </p>
+                        <h4 align="center">Este valor não pode ser menor que 1</h4>
+                    </fieldset>
+                    <p class="textoform"> *Imagem do produto (.png, .jpeg, .jpg)
+                        <input type="file" name="imagem_produto">
+                    </p>
+                    <p class="textoform"> *Banner produto
+                        <input type="file" name="banner_produto">
+                    </p>
+                </div>
+            </fieldset>
+            <br>
+            <div>
+                <button class="comprar" type="submit">Enviar produto</button>
+                <button class="carrinho" type="reset">Cancelar</button>
+            </div>
+        </form>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        <h4>&copy;2024 C. E. Francisco Carneiro Martins</h4>
+        <img src="Imagens/Menus/Logo.svg" width="70px">
+    </footer>
+</body>
+</html>
